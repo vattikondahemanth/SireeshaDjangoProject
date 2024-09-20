@@ -12,6 +12,10 @@ pip install requests
 
 pip freeze > requirements.txt
 
+# install  all the libraries in requirement files
+
+pip install -r requirements.txt
+
 # create a django project
 python -m django startproject mywebsite
 
