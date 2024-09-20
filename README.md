@@ -28,8 +28,22 @@ http://localhost:8000
 
 # GIT COMMANDS
 
-to check which files you have changed
+1. to check which files you have changed
 
-git status
+    git status
+
+2. you add files to staging environment
+
+    git add .
+
+3. commit your files
+
+    git commit -m "added some files"
+
+4. push your files to remote git
+
+    git push
+
+
 
 
