@@ -26,6 +26,12 @@ python manage.py runserver
 
 http://localhost:8000
 
+# How to make migrations
+pip install mysqlclient
+
+python manage.py makemigrations
+python manage.py migrate
+
 # create super user in django
 
 python manage.py createsuperuser
