@@ -19,7 +19,13 @@ python -m django startproject mywebsite
 # start the django project
 python manage.py runserver
 
+
 http://localhost:8000
+
+# create super user in django
+
+python manage.py createsuperuser
+
 
 
 
